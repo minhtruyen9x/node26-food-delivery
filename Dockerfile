@@ -11,7 +11,7 @@ COPY . .
 RUN npm install
 
 # Cho phep quyen thuc thi
-RUN chmode +x wait-for
+# RUN chmode +x wait-for
 
 EXPOSE 4000
 
